@@ -1,24 +1,69 @@
-# Merge Sort Algorithm in C++
+# 📊 Merge Sort Algorithm (C++)
 
-This repository contains a simple **C++ implementation of the Merge Sort algorithm**.  
+## 📌 Overview
 
-Merge Sort is a **divide-and-conquer sorting algorithm** with **O(n log n) time complexity**, which splits the array, sorts each half recursively, and merges them back.
+Merge Sort is a classic **divide-and-conquer sorting algorithm**.  
 
----
+It works by **dividing the array into halves**, recursively sorting each half, and **merging the sorted halves** to produce the final sorted array.  
 
-## Features
-
-- Sorts integer arrays of any size.<img 
-- Uses dynamic memory allocation for merging subarrays.
-- Stable sorting (preserves order of equal elements).
+Merge Sort is **stable** and performs consistently well, even for large datasets.
 
 ---
 
-## How to Use
+## ⚙️ How It Works
 
-1. Clone or download the repository.  
-2. Open the project in **Visual Studio Code** or any C++ IDE.  
-3. Compile and run `main.cpp`.  
-4. Enter the size of the array and the elements when prompted.  
-## ScreenShot of code output Console Example😊:
-width="1641" height="1071" alt="Screenshot 2026-04-02 015517" src="https://github.com/user-attachments/assets/f7183904-096b-47a7-a0f5-a856395c53cc" />
+1. Divide the array into two halves.  
+2. Recursively sort each half.  
+3. Merge the two sorted halves into a single sorted array.  
+4. Repeat until the entire array is sorted.
+
+
+---
+
+## ⏱️ Time Complexity
+
+| Case         | Complexity |
+| ------------ | ---------- |
+| Best Case    | O(n log n) |
+| Average Case | O(n log n) |
+| Worst Case   | O(n log n) |
+
+---
+
+## 📦 Space Complexity
+
+* O(n) → Requires extra memory for temporary arrays during merging
+
+---
+
+## ✅ Advantages
+
+* Stable sorting algorithm (preserves order of equal elements)  
+* Predictable performance for all cases  
+* Efficient for large datasets  
+* Works well for linked lists and external sorting  
+
+---
+
+## ❌ Disadvantages
+
+* Requires extra memory (not in-place)  
+* Slightly slower for small datasets compared to Insertion or Bubble Sort  
+
+---
+
+## 📸 Screenshot of Code Output Example:
+
+<img width="1264" height="526" alt="Screenshot 2026-04-02 022811" src="https://github.com/user-attachments/assets/4d957edf-3429-4eae-a09f-5397a7039950" />
+
+---
+
+## 👨‍💻 Author
+
+John Adel
+
+---
+
+## ⭐ Don't Forget
+
+If you like this project, give it a ⭐ on GitHub!  
